@@ -1,5 +1,7 @@
 # BiasedPageRank
 # Language: Python
+# Plugin Dependencies: Clusterize, PageRank
+# Other Dependencies: pythonds, version 2.1 (https://pypi.python.org/pypi/pythonds/1.2.1)
 # Input: Prefix (file prefix for network and cluster CSV files)
 # Output: NOA (central nodes and centrality values) 
 
