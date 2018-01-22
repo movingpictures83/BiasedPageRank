@@ -54,6 +54,7 @@ def biasedpagerank(G,clusters,alpha1=0.5,alpha2=0.35,max_iter=100,tol=1.0e-8,nst
         for n in x: x[n]*=s
         # check convergence, l1 norm            
         err=sum([abs(x[n]-xlast[n]) for n in x])
+        print err, tol
         if err < tol:
             break
         if i>max_iter:
