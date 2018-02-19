@@ -1,3 +1,8 @@
+import PyPluMA
+PyPluMA.dependency("Clusterize")
+PyPluMA.dependency("PageRank")
+
+
 import numpy
 import math
 import random
@@ -61,6 +66,7 @@ def biasedpagerank(G,clusters,alpha1=0.5,alpha2=0.35,max_iter=100,tol=1.0e-8,nst
             raise NetworkXError(\
         "pagerank: power iteration failed to converge in %d iterations."%(i+1))
         i+=1
+    PyPluMA.log("Converged after "+str(i)+" iterations")
     return x
 
 
