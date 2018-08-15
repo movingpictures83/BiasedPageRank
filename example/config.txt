@@ -1,0 +1,2 @@
+Prefix plugins/BiasedPageRank/example/
+Plugin BiasedPageRank inputfile corrP.never outputfile corrP.never.bpr.noa
