@@ -6,6 +6,7 @@ PyPluMA.dependency("PageRank")
 import numpy
 import math
 import random
+random.seed(1234)  # ONLY FOR TEST PURPOSES, COMMENT OUT FOR BETTER RANDOMNESS
 import sys
 import networkx as nx
 
