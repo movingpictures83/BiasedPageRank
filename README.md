@@ -1,10 +1,9 @@
 # BiasedPageRank
 # Language: Python
-# Plugin Dependencies: Clusterize, PageRank
-# Other Dependencies: pythonds, version 2.1 (https://pypi.python.org/pypi/pythonds/1.2.1)
 # Input: Prefix (file prefix for network and cluster CSV files)
 # Output: NOA (central nodes and centrality values) 
-# Tested with: PluMA 1.0, Python 3.6
+# Tested with: PluMA 1.1, Python 3.6
+# Dependency: networkx=2.2, Clusterize and PageRank plugins
 
 PluMA plugin that runs Edge-Weighted Personalized (EWP) PageRank (Xie et al, 2015).
 This algorithm is a modification of Google's PageRank algorithm (Page, 1999).
